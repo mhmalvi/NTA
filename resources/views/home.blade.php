@@ -1624,7 +1624,7 @@ $DRM = 'This qualification reflects the role of remedial massage therapists who 
         "@context": "http://schema.org/"
         , "@type": "CollegeOrUniversity"
         , "contactPoint": "https://www.nta.nsw.edu.au/contact-us"
-        , "description": "Recognition of Prior Learning (RPL) Certificate in Australia"
+        , "description": "Recognised Training Organisation (RTO Code: 70201)"
         , "image": "https://nta.nsw.edu.au/public/assets/images/logo/nta_logo.png"
         , "keywords": "Recognition of Prior Learning (RPL) Certificate in Australia"
         , "map": "https://goo.gl/maps/uvoZsSn8JPnCii3q9"
