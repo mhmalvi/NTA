@@ -122,12 +122,12 @@
                             {{-- <li><a href="{{ route('diplomaInBeauty') }}">SHB50121 - Diploma in Beauty Therapy (superseded)</a>
 
                     </li> --}}
-                    <li><a href="{{ route('diplomaInBeauty') }}">SHB50115 - Diploma in Beauty Therapy(Superseded)</a></li>
+                    {{-- <li><a href="{{ route('diplomaInBeauty') }}">SHB50115 - Diploma in Beauty Therapy(Superseded)</a></li>
 
                     <li><a href="{{ route('diplomaInRemedial') }}">HLT52015 - Diploma in Remedial Massage (Superseded)</a>
 
                     </li>
-                    <li><a href="{{ route('BeautyTherapy_superseded') }}">SHB40115 - Certificate IV in Beauty Therapy (Superseded)</a>
+                    <li><a href="{{ route('BeautyTherapy_superseded') }}">SHB40115 - Certificate IV in Beauty Therapy (Superseded)</a> --}}
 
 
 

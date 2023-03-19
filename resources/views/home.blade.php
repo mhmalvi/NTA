@@ -1049,7 +1049,7 @@ $DRM = 'This qualification reflects the role of remedial massage therapists who 
 
                         </div>
 
-                        <div class="item">
+                        <!--<div class="item">
 
                             <div class="image bottom20">
 
@@ -1136,7 +1136,7 @@ $DRM = 'This qualification reflects the role of remedial massage therapists who 
 
 
 
-                        </div>
+                        </div>-->
 
 
                         {{-- <div class="item">

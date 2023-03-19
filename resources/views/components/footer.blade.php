@@ -64,19 +64,16 @@
                     <li><a href="{{ route('beautyTherapy') }}"><i class="icon-chevron-small-right"></i>
                             Diploma of Beauty Therapy</a></li>
 
-<li><a href="{{ route('BeautyTherapy_superseded') }}"><i class="icon-chevron-small-right"></i>
+                        {{-- <li><a href="{{ route('BeautyTherapy_superseded') }}"><i class="icon-chevron-small-right"></i>
 
-        Certificate IV in Beauty Therapy (Superseded)</a></li>
-<li><a href="{{ route('diplomaInRemedial') }}"><i class="icon-chevron-small-right"></i>
+                                Certificate IV in Beauty Therapy (Superseded)</a></li>
+                        <li><a href="{{ route('diplomaInRemedial') }}"><i class="icon-chevron-small-right"></i>
 
-        Diploma of Remedial Massage (Superseded)</a></li>
+                                Diploma of Remedial Massage (Superseded)</a></li>
 
-<li><a href="{{ route('diplomaInBeauty') }}"><i class="icon-chevron-small-right"></i>
+                        <li><a href="{{ route('diplomaInBeauty') }}"><i class="icon-chevron-small-right"></i>
 
-        Diploma of Beauty Therapy (Superseded)</a></li>
-
-
-
+                                Diploma of Beauty Therapy (Superseded)</a></li> --}}
 
                 </ul>
             </div>

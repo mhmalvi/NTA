@@ -3425,6 +3425,9 @@ footer .footer_panel p.address > i,
 }
 
 @media screen and (max-width: 479px) {
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+        margin-top: 222px;
+    }
     body {
         font-size: 80%;
     }
