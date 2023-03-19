@@ -3,16 +3,43 @@
 @section('title', $blog->blog_title)
 
     @push('seo')
+        <meta name="title" content="{{$blog->blog_title}}"/>
         <meta name="tags" content="{{ $blog->meta_tags }}" />
         <meta name="keywords" content="{{$blog->meta_keys}}" />
+        <meta name="description" content="{{$blog->meta_desc}}" />
     @endpush
 
 
     @push('og')
+        <meta property="og:title" content="{{$blog->blog_title}}"/>
         <meta property="og:tags" content="{{$blog->meta_tags }}">
         <meta property="og:keywords" content="{{$blog->meta_keys }}">
         <meta property="og:description" content="{{ $blog->meta_desc }}">
         <meta property="og:image" content="{{ asset('storage/blogs/'.$blog->thumbnail) }}" />
+
+        <!-- For Tweeter -->
+        <meta name="twitter:card" content="{{$blog->blog_title}}"/>
+        <meta name="tweeter:title" content="{{$blog->blog_title}}"/>
+        <meta name="tweeter:keywords" content="{{$blog->meta_keys }}">
+        <meta name="tweeter:description" content="{{ $blog->meta_desc }}">
+        <meta name="tweeter:image" content="{{ asset('storage/blogs/'.$blog->thumbnail)}}" />
+
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": {{$blog->blog_title}},
+            "image": [
+              {{ asset('storage/blogs/'.$blog->thumbnail)}}
+            ],
+            "datePublished": {{ $blog->created_at }},
+            "author": [{
+                "@type": "Organization",
+                "name": "Quadque Technology",
+              }]
+          }
+        </script>
+
     @endpush
 
 
@@ -43,7 +70,7 @@
     @endpush
 @section('content')
     <!--Page Header-->
-<section class="page_header padding-top">
+  <section class="page_header padding-top">
     <div class="container">
       <div class="row">
         <div class="col-md-12 page-content">
