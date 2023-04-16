@@ -33,8 +33,6 @@
     <title>Boost your career through a course in beauty, hairdressing, community or health</title>
 
 
-
-
     <link rel="icon" href="{{ asset('assets/images/logo/favicon.png') }}">
 
     <link rel="preload" href="{{asset('assets/fonts/museo_slab_0-webfont.woff2')}}" as="font" type="font/woff2" crossorigin>
@@ -113,9 +111,6 @@
             #menu_bars {
                 margin-right: 55px !important;
             }
-
-            nav {}
-
 
             .course-dropdown-menu {
                 margin-left: -47px !important;
