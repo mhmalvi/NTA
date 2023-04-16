@@ -94,7 +94,7 @@
 
                                             <label for="sixth_course" class="exp-lbl exp-lbl2">
 
-                                                <div >
+                                                <div>
 
                                                     CHC40321 - Certificate IV in Mental Health
 
@@ -183,11 +183,12 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <input type="radio" name="qualification" id="twelvth_course" value="HLT37315 - Certificate III in Health Administration" />
+                                            <input type="radio" name="qualification" id="thirteenth_course" value="HLT37315 - Certificate III in Health Administration" />
 
 
 
-                                            <label for="twelvth_course" class="exp-lbl exp-lbl2">
+                                            <label for="thirteenth_course" class="exp-lbl exp-lbl2">
+
 
                                                 <div>
                                                     HLT37315 - Certificate III in Health Administration
@@ -538,13 +539,573 @@
 
 @push('js')
 <script>
+    /*function save() {
+        
+        // alert(company_id)
+        // $.ajax({
+        // type:"GET",
+        // url:"http://localhost:8002/api/send-company-id",
+        // success:function(res){
+        // console.log(res)
+        // }
+        // })
+
+    }*/
+
     $("#rplForm").on('submit', function(e) {
         e.preventDefault();
 
+        var company_id;
+
+        if (document.getElementById('first_course').checked == true) {
+
+
+        var course = document.getElementById('first_course').value
+
+    //alert(course)
+
+
+
+        } else if (document.getElementById('second_course').checked == true) {
+
+
+
+        var course = document.getElementById('second_course').value
+
+
+
+
+
+
+        } else if (document.getElementById('third_course').checked == true) {
+
+
+
+
+        var course = document.getElementById('third_course').value
+
+
+
+
+
+
+        } else if (document.getElementById('fourth_course').checked == true) {
+
+
+
+
+
+        var course = document.getElementById('fourth_course').value
+
+
+
+
+
+
+
+        } else if (document.getElementById('fifth_course').checked == true) {
+
+
+
+
+
+
+        var course = document.getElementById('fifth_course').value
+
+
+
+
+
+
+
+        } else if (document.getElementById('sixth_course').checked == true) {
+
+
+
+
+
+
+
+        var course = document.getElementById('sixth_course').value
+
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('seventh_course').checked == true) {
+
+        var course = document.getElementById('seventh_course').value
+
+
+
+
+
+
+        } else if (document.getElementById('eighth_course').checked == true) {
+
+
+        var course = document.getElementById('eighth_course').value
+
+
+
+
+
+
+
+        } else if (document.getElementById('ninth_course').checked == true) {
+
+
+
+        var course = document.getElementById('ninth_course').value
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('tenth_course').checked == true) {
+
+
+
+
+        var course = document.getElementById('tenth_course').value
+
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('eleventh_course').checked == true) {
+
+
+
+
+
+        var course = document.getElementById('eleventh_course').value
+
+
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('twelveth_course').checked == true) {
+
+
+
+
+
+
+        var course = document.getElementById('twelveth_course').value
+
+
+
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('thirteenth_course').checked == true) {
+
+
+
+
+
+
+
+        var course = document.getElementById('thirteenth_course').value
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+        if (document.getElementById('one').checked == true) {
+
+
+
+        var experience = document.getElementById('one').value
+
+
+
+
+
+
+
+        } else if (document.getElementById('two').checked == true) {
+
+
+
+
+        var experience = document.getElementById('two').value
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('three').checked == true) {
+
+
+
+
+
+        var experience = document.getElementById('three').value
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('four').checked == true) {
+
+
+
+
+
+
+        var experience = document.getElementById('four').value
+
+
+
+
+
+
+
+
+        }
+
+
+        if (document.getElementById('wlOne').checked == true) {
+
+
+
+
+        var work_experience = document.getElementById('wlOne').value
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('wlTwo').checked == true) {
+
+
+
+
+
+        var work_experience = document.getElementById('wlTwo').value
+
+
+
+
+
+
+
+
+
+
+        } else if (document.getElementById('wlThree').checked == true) {
+
+
+
+
+
+
+        var work_experience = document.getElementById('wlThree').value
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+        var name = document.getElementById('name').value
+
+
+        var email = document.getElementById('email').value
+
+
+
+
+        var phone = document.getElementById('phone').value
+
+        // alert(name)
+
+
+
+
+        if (document.getElementById('locOne').checked == true) {
+
+        var location = document.getElementById('locOne').value
+
+
+
+        } else if (document.getElementById('locTwo').checked == true) {
+
+
+        var location = document.getElementById('locTwo').value
+
+
+
+
+        } else if (document.getElementById('locThree').checked == true) {
+
+
+
+        var location = document.getElementById('locThree').value
+
+
+
+
+        } else if (document.getElementById('locFour').checked == true) {
+
+
+
+
+        var location = document.getElementById('locFour').value
+
+
+
+
+
+        } else if (document.getElementById('locFive').checked == true) {
+
+
+
+
+
+        var location = document.getElementById('locFive').value
+
+
+
+
+
+        } else if (document.getElementById('locSix').checked == true) {
+
+
+
+
+
+
+        var location = document.getElementById('locSix').value
+
+
+
+
+
+
+
+        } else if (document.getElementById('locSeven').checked == true) {
+        var location = document.getElementById('locSeven').value
+
+
+
+
+        } else if (document.getElementById('locEight').checked == true) {
+
+        var location = document.getElementById('locEight').value
+
+
+
+
+
+
+        }
+
+        if (document.getElementById('q3_1').checked == true) {
+
+
+
+        var q3 = document.getElementById('q3_1').value
+
+
+
+        } else if (document.getElementById('q3_2').checked == true) {
+
+
+
+
+        var q3 = document.getElementById('q3_2').value
+
+
+
+
+        }
+
+
+        if (document.getElementById('q2_1').checked == true) {
+
+
+
+
+        var q2 = document.getElementById('q2_1').value
+
+
+
+
+        } else if (document.getElementById('q2_2').checked == true) {
+
+
+
+
+        var q2 = document.getElementById('q2_2').value
+
+
+
+
+        }
+
+
+        if (document.getElementById('q1_1').checked == true) {
+
+
+
+
+
+        var q1 = document.getElementById('q1_1').value
+
+
+
+
+
+        } else if (document.getElementById('q1_2').checked == true) {
+
+
+
+
+        var q1 = document.getElementById('q1_2').value
+
+
+
+
+        }
+
+
+        //alert(q2)
+
+
+        //var remark = document.getElementById('remark').value
+        //var course = $('#course').val()
+        // alert(course)
+        var relevent_experience = experience
+        var working_place = location
+        //var living_place = $('#living_place').val()
+        var academic_qualification = q1
+
+        var work_evidence = q2
+
+        var industry_qualified = q3
+
+        var full_name = name
+        var contact = phone
+        var query = remark
+        var lead_from = "website"
+        var abn = 6666
+        var formData = []
+
+        formData.push({
+        "name": "how_many_years_of_relevant_work_experience_do_you_have?"
+        , "values": [relevent_experience]
+        , }, {
+        "name": "what_state_do_you_live_in?"
+        , "values": [working_place]
+
+        }, {
+        "name": "please_provide_your_present\/current_contact_number._"
+        , "values": [contact]
+        }, {
+        "name": "Do you hold any academic qualifications relating to the course being enquired?"
+        , "values": [academic_qualification]
+        }, {
+        "name": "Are you able to provide evidence of industry work experience? Eg. Reference letters, pay slips, pictures, videos and more"
+        , "values": [work_evidence]
+        }, {
+        "name": "email"
+        , "values": [email]
+        }, {
+        "name": "are_you_ready_to_become_industry_qualified_immediately?"
+        , "values": [industry_qualified]
+        }, {
+        "name": "full_name"
+        , "values": [full_name]
+        }, {
+        "name": "phone_number"
+        , "values": [contact]
+        });
+        var data = "abn=" + abn
+
+        $.ajax({
+        type: "POST"
+        , url: "https://crmcompany.quadque.digital/api/send-company-abn"
+        , data: data
+        , success: function(data) {
+        //alert(JSON.stringify(data))
+        //console.log(data)
+        // company_id = data.id
+        // console.log(company_id)
+        }
+        }).then((res) => {
+        company_id = res.id
+        var form_data = JSON.stringify(formData)
+        var datastr = "course=" + course + "&relevent_experience=" + relevent_experience + "&lead_from=" + lead_from + "&work_location=" + working_place + "&client_id=" + company_id + "&academic_qualification=" + academic_qualification + "&full_name=" + full_name + "&student_email=" + email + "&phone_number=" + contact + "&query=" + query + "&form_data=" + form_data;
+
+        // alert(datastr)
+        $.ajax({
+        type: "POST"
+        , url: "https://crmleads.quadque.digital/api/create-lead-from-form"
+        , data: datastr
+        , success: function(res) {
+        // alert(res)
+        }
+        })
+        })
+
+        ////////////////////////////////////////////////////////
         $('#is_submit_button').hide()
         $('#is_spinner').show()
 
         var rplForm = document.getElementById("rplForm");
+        //alert(JSON.stringify(rplForm))
+
+        //console.log(JSON.stringify(rplForm))
+
         var fd = new FormData(rplForm);
 
         // Object.keys(form).forEach((key) => {
@@ -563,7 +1124,6 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-
         var base_url = window.location.origin;
         $.ajax({
             url: base_url + '/check-eligibility'
