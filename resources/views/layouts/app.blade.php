@@ -30,7 +30,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Boost your career through a course in beauty, hairdressing, community or health</title>
+    <title>NTA-Boost your career through a course in beauty, hairdressing, community or health</title>
+
 
 
     <link rel="icon" href="{{ asset('assets/images/logo/favicon.png') }}">
@@ -112,17 +113,20 @@
                 margin-right: 55px !important;
             }
 
+            nav {}
+
+
             .course-dropdown-menu {
                 margin-left: -47px !important;
 
             }
 
-            .course-dropdown{
-                    margin-left: -44px !important;
+            .course-dropdown {
+                margin-left: -44px !important;
 
             }
 
-            .course_image{
+            .course_image {
                 height: 14rem !important;
 
             }
@@ -182,11 +186,10 @@
         };*/
 
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     {{-- <script id="botmanWidget" src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/chat.js'></script> --}}
     <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
 
 </body>
 
 </html>
+

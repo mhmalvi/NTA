@@ -29,23 +29,22 @@
 @endpush
 
 @push('seo')
-<meta name="title" content="Noble Training Academy (NTA)"/>
+<meta name="title" content="Noble Training Academy (NTA)" />
 <meta name="description" content="Noble Training Academy was established in 2016 and is privately operated Registered Training Organisation. Our courses are provided within Australia." />
 @endpush
 
 @push('og')
-<meta property="og:title" content="Noble Training Academy (NTA)"/>
+<meta property="og:title" content="Noble Training Academy (NTA)" />
 <meta property="og:keywords" content="beauty therapy,remedial massage,hair dressing,certificate iii,diploma,colleges in australia,certificate ii">
 <meta property="og:description" content="Noble Training Academy was established in 2016 and is privately operated Registered Training Organisation. Our courses are provided within Australia.">
 <meta property="og:image" content="{{ asset('assets/images/about/nta_logo.png') }}" />
 
 <!-- For Tweeter -->
-<meta name="twitter:card" content="Noble Training Academy (NTA)"/>
-<meta name="twitter:title" content="Noble Training Academy (NTA)"/>
-<meta name="twitter:description" content="Noble Training Academy was established in 2016 and is privately operated Registered Training Organisation. Our courses are provided within Australia."/>
-<meta name="twitter:image" content="{{ asset('assets/images/about/nta_logo.png') }}"/>
+<meta name="twitter:card" content="Noble Training Academy (NTA)" />
+<meta name="twitter:title" content="Noble Training Academy (NTA)" />
+<meta name="twitter:description" content="Noble Training Academy was established in 2016 and is privately operated Registered Training Organisation. Our courses are provided within Australia." />
+<meta name="twitter:image" content="{{ asset('assets/images/about/nta_logo.png') }}" />
 @endpush
-
 @section('content')
 
 @include('components.slider')
@@ -1636,3 +1635,4 @@ $DRM = 'This qualification reflects the role of remedial massage therapists who 
 </script>
 
 @endsection
+
