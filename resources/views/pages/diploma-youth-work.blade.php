@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Diploma of Youth Work')
 
+<title>CHC50421 - Diploma of Youth Work</title>
+
 
 
 @push('seo')

@@ -560,9 +560,9 @@
         if (document.getElementById('first_course').checked == true) {
 
 
-        var course = document.getElementById('first_course').value
+            var course = document.getElementById('first_course').value
 
-    //alert(course)
+            //alert(course)
 
 
 
@@ -570,7 +570,7 @@
 
 
 
-        var course = document.getElementById('second_course').value
+            var course = document.getElementById('second_course').value
 
 
 
@@ -582,7 +582,7 @@
 
 
 
-        var course = document.getElementById('third_course').value
+            var course = document.getElementById('third_course').value
 
 
 
@@ -595,7 +595,7 @@
 
 
 
-        var course = document.getElementById('fourth_course').value
+            var course = document.getElementById('fourth_course').value
 
 
 
@@ -610,7 +610,7 @@
 
 
 
-        var course = document.getElementById('fifth_course').value
+            var course = document.getElementById('fifth_course').value
 
 
 
@@ -626,7 +626,7 @@
 
 
 
-        var course = document.getElementById('sixth_course').value
+            var course = document.getElementById('sixth_course').value
 
 
 
@@ -638,7 +638,7 @@
 
         } else if (document.getElementById('seventh_course').checked == true) {
 
-        var course = document.getElementById('seventh_course').value
+            var course = document.getElementById('seventh_course').value
 
 
 
@@ -648,7 +648,7 @@
         } else if (document.getElementById('eighth_course').checked == true) {
 
 
-        var course = document.getElementById('eighth_course').value
+            var course = document.getElementById('eighth_course').value
 
 
 
@@ -660,7 +660,7 @@
 
 
 
-        var course = document.getElementById('ninth_course').value
+            var course = document.getElementById('ninth_course').value
 
 
 
@@ -674,7 +674,7 @@
 
 
 
-        var course = document.getElementById('tenth_course').value
+            var course = document.getElementById('tenth_course').value
 
 
 
@@ -690,7 +690,7 @@
 
 
 
-        var course = document.getElementById('eleventh_course').value
+            var course = document.getElementById('eleventh_course').value
 
 
 
@@ -708,7 +708,7 @@
 
 
 
-        var course = document.getElementById('twelveth_course').value
+            var course = document.getElementById('twelveth_course').value
 
 
 
@@ -728,7 +728,7 @@
 
 
 
-        var course = document.getElementById('thirteenth_course').value
+            var course = document.getElementById('thirteenth_course').value
 
 
 
@@ -748,7 +748,7 @@
 
 
 
-        var experience = document.getElementById('one').value
+            var experience = document.getElementById('one').value
 
 
 
@@ -761,7 +761,7 @@
 
 
 
-        var experience = document.getElementById('two').value
+            var experience = document.getElementById('two').value
 
 
 
@@ -776,7 +776,7 @@
 
 
 
-        var experience = document.getElementById('three').value
+            var experience = document.getElementById('three').value
 
 
 
@@ -792,7 +792,7 @@
 
 
 
-        var experience = document.getElementById('four').value
+            var experience = document.getElementById('four').value
 
 
 
@@ -809,7 +809,7 @@
 
 
 
-        var work_experience = document.getElementById('wlOne').value
+            var work_experience = document.getElementById('wlOne').value
 
 
 
@@ -824,7 +824,7 @@
 
 
 
-        var work_experience = document.getElementById('wlTwo').value
+            var work_experience = document.getElementById('wlTwo').value
 
 
 
@@ -842,7 +842,7 @@
 
 
 
-        var work_experience = document.getElementById('wlThree').value
+            var work_experience = document.getElementById('wlThree').value
 
 
 
@@ -873,14 +873,14 @@
 
         if (document.getElementById('locOne').checked == true) {
 
-        var location = document.getElementById('locOne').value
+            var location = document.getElementById('locOne').value
 
 
 
         } else if (document.getElementById('locTwo').checked == true) {
 
 
-        var location = document.getElementById('locTwo').value
+            var location = document.getElementById('locTwo').value
 
 
 
@@ -889,7 +889,7 @@
 
 
 
-        var location = document.getElementById('locThree').value
+            var location = document.getElementById('locThree').value
 
 
 
@@ -899,7 +899,7 @@
 
 
 
-        var location = document.getElementById('locFour').value
+            var location = document.getElementById('locFour').value
 
 
 
@@ -911,7 +911,7 @@
 
 
 
-        var location = document.getElementById('locFive').value
+            var location = document.getElementById('locFive').value
 
 
 
@@ -924,7 +924,7 @@
 
 
 
-        var location = document.getElementById('locSix').value
+            var location = document.getElementById('locSix').value
 
 
 
@@ -933,14 +933,14 @@
 
 
         } else if (document.getElementById('locSeven').checked == true) {
-        var location = document.getElementById('locSeven').value
+            var location = document.getElementById('locSeven').value
 
 
 
 
         } else if (document.getElementById('locEight').checked == true) {
 
-        var location = document.getElementById('locEight').value
+            var location = document.getElementById('locEight').value
 
 
 
@@ -953,7 +953,7 @@
 
 
 
-        var q3 = document.getElementById('q3_1').value
+            var q3 = document.getElementById('q3_1').value
 
 
 
@@ -962,7 +962,7 @@
 
 
 
-        var q3 = document.getElementById('q3_2').value
+            var q3 = document.getElementById('q3_2').value
 
 
 
@@ -975,7 +975,7 @@
 
 
 
-        var q2 = document.getElementById('q2_1').value
+            var q2 = document.getElementById('q2_1').value
 
 
 
@@ -985,7 +985,7 @@
 
 
 
-        var q2 = document.getElementById('q2_2').value
+            var q2 = document.getElementById('q2_2').value
 
 
 
@@ -999,7 +999,7 @@
 
 
 
-        var q1 = document.getElementById('q1_1').value
+            var q1 = document.getElementById('q1_1').value
 
 
 
@@ -1010,7 +1010,7 @@
 
 
 
-        var q1 = document.getElementById('q1_2').value
+            var q1 = document.getElementById('q1_2').value
 
 
 
@@ -1039,227 +1039,331 @@
         var lead_from = "website"
         var abn = 6666
         var formData = []
+        if (course == "" || course == null) {
 
-        formData.push({
-        "name": "how_many_years_of_relevant_work_experience_do_you_have?"
-        , "values": [relevent_experience]
-        , }, {
-        "name": "what_state_do_you_live_in?"
-        , "values": [working_place]
+            alert("Please select course")
+        }else if(relevent_experience == "" || relevent_experience == null){
 
-        }, {
-        "name": "please_provide_your_present\/current_contact_number._"
-        , "values": [contact]
-        }, {
-        "name": "Do you hold any academic qualifications relating to the course being enquired?"
-        , "values": [academic_qualification]
-        }, {
-        "name": "Are you able to provide evidence of industry work experience? Eg. Reference letters, pay slips, pictures, videos and more"
-        , "values": [work_evidence]
-        }, {
-        "name": "email"
-        , "values": [email]
-        }, {
-        "name": "are_you_ready_to_become_industry_qualified_immediately?"
-        , "values": [industry_qualified]
-        }, {
-        "name": "full_name"
-        , "values": [full_name]
-        }, {
-        "name": "phone_number"
-        , "values": [contact]
-        });
-        var data = "abn=" + abn
+            alert("Please select relevant work experience")
 
-        $.ajax({
-        type: "POST"
-        , url: "https://crmcompany.quadque.digital/api/send-company-abn"
-        , data: data
-        , success: function(data) {
-        //alert(JSON.stringify(data))
-        //console.log(data)
-        // company_id = data.id
-        // console.log(company_id)
-        }
-        }).then((res) => {
-        company_id = res.id
-        var form_data = JSON.stringify(formData)
-        var datastr = "course=" + course + "&relevent_experience=" + relevent_experience + "&lead_from=" + lead_from + "&work_location=" + working_place + "&client_id=" + company_id + "&academic_qualification=" + academic_qualification + "&full_name=" + full_name + "&student_email=" + email + "&phone_number=" + contact + "&query=" + query + "&form_data=" + form_data;
 
-        // alert(datastr)
-        $.ajax({
-        type: "POST"
-        , url: "https://crmleads.quadque.digital/api/create-lead-from-form"
-        , data: datastr
-        , success: function(res) {
-        // alert(res)
-        }
-        })
-        })
+        }else if(working_place == "" || working_place == null){
 
-        ////////////////////////////////////////////////////////
-        $('#is_submit_button').hide()
-        $('#is_spinner').show()
 
-        var rplForm = document.getElementById("rplForm");
-        //alert(JSON.stringify(rplForm))
 
-        //console.log(JSON.stringify(rplForm))
+        alert("Please select working place")
 
-        var fd = new FormData(rplForm);
 
-        // Object.keys(form).forEach((key) => {
-        //     fd.append(key, form[key]);
-        // });
+        }else if(full_name == "" || full_name == null){
 
-        var files = $("#files").prop("files");
-        if (files.length > 0) {
-            $.each(files, function(key, value) {
-                fd.append("files[]", value);
+
+
+
+
+
+
+
+
+
+        alert("Please enter your name")
+
+
+        }else if(contact == "" || contact == null){
+
+
+
+
+
+
+
+
+
+
+
+
+        alert("Please enter contact")
+
+
+        }else if(academic_qualification == "" || academic_qualification == null){
+
+
+
+
+
+
+
+
+
+
+
+
+        alert("Please select yes or no for academic qualification")
+
+
+        }else if(work_evidence == "" || work_evidence == null){
+
+
+
+
+
+
+
+
+
+
+
+
+        alert("Please select yes or no for work evidence")
+
+
+        }else if(industry_qualified == "" || industry_qualified == null){
+
+
+
+
+
+
+
+
+
+
+
+
+        alert("Please select yes or no for industry qualification")
+
+
+        } else {
+
+
+
+
+
+
+
+            formData.push({
+                "name": "how_many_years_of_relevant_work_experience_do_you_have?"
+                , "values": [relevent_experience]
+            , }, {
+                "name": "what_state_do_you_live_in?"
+                , "values": [working_place]
+
+            }, {
+                "name": "please_provide_your_present\/current_contact_number._"
+                , "values": [contact]
+            }, {
+                "name": "Do you hold any academic qualifications relating to the course being enquired?"
+                , "values": [academic_qualification]
+            }, {
+                "name": "Are you able to provide evidence of industry work experience? Eg. Reference letters, pay slips, pictures, videos and more"
+                , "values": [work_evidence]
+            }, {
+                "name": "email"
+                , "values": [email]
+            }, {
+                "name": "are_you_ready_to_become_industry_qualified_immediately?"
+                , "values": [industry_qualified]
+            }, {
+                "name": "full_name"
+                , "values": [full_name]
+            }, {
+                "name": "phone_number"
+                , "values": [contact]
             });
+            var data = "abn=" + abn
+
+            $.ajax({
+                type: "POST"
+                , url: "https://crmcompany.quadque.digital/api/send-company-abn"
+                , data: data
+                , success: function(data) {
+                    //alert(JSON.stringify(data))
+                    //console.log(data)
+                    // company_id = data.id
+                    // console.log(company_id)
+                }
+            }).then((res) => {
+                company_id = res.id
+                var form_data = JSON.stringify(formData)
+                var datastr = "course=" + course + "&relevent_experience=" + relevent_experience + "&lead_from=" + lead_from + "&work_location=" + working_place + "&client_id=" + company_id + "&academic_qualification=" + academic_qualification + "&full_name=" + full_name + "&student_email=" + email + "&phone_number=" + contact + "&query=" + query + "&form_data=" + form_data;
+
+                // alert(datastr)
+                $.ajax({
+                    type: "POST"
+                    , url: "https://crmleads.quadque.digital/api/create-lead-from-form"
+                    , data: datastr
+                    , success: function(res) {
+                        // alert(res)
+                    }
+                })
+            })
+
+            ////////////////////////////////////////////////////////
+            $('#is_submit_button').hide()
+            $('#is_spinner').show()
+
+            var rplForm = document.getElementById("rplForm");
+            //alert(JSON.stringify(rplForm))
+
+            //console.log(JSON.stringify(rplForm))
+
+            var fd = new FormData(rplForm);
+
+            // Object.keys(form).forEach((key) => {
+            // fd.append(key, form[key]);
+            // });
+
+            var files = $("#files").prop("files");
+            if (files.length > 0) {
+                $.each(files, function(key, value) {
+                    fd.append("files[]", value);
+                });
+            }
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            var base_url = window.location.origin;
+            $.ajax({
+                url: base_url + '/check-eligibility'
+                , data: fd
+                , cache: false
+                , processData: false
+                , contentType: false
+                , type: 'POST'
+                , success: function(dataofconfirm) {
+                    console.log('dataofconfirm.status', dataofconfirm.success);
+                    if (dataofconfirm.success == 'success') {
+
+                        window.location.href = base_url + '/rpl/success';
+
+                        $('#alert').show();
+                        $('#alert-success').text(
+                            'Thank you one of our consultants will be in touch with you soon.');
+
+                        $('#is_submit_button').show()
+                        $('#is_spinner').hide()
+
+                        // document.getElementById('rplForm').reset()
+                        $('#rplForm').trigger("reset");
+
+                    }
+                }
+                , error: function(error) {
+                    console.log(error.responseJSON.errors);
+                    if (error.status == 422) {
+                        // this.error = error.response.data.errors
+                        $('#is_spinner').hide()
+                        $('#is_submit_button').show();
+                        $('#is_submit_button').css({
+                            'border': '1px solid red'
+                        });
+
+                        $.each(error.responseJSON.errors, function(item, index) {
+                            let input = jQuery(document).find('input[name="' + item + '"]')
+                            let inputAfter = jQuery(document).find('input[name="' + item +
+                                '"] + span')
+
+
+                            if (item == 'experience' | item == 'work_location' | item ==
+                                'location' | item == 'qualification' | item == 'q1' | item ==
+                                'q3' | item == 'q5' | item == 'q6' | item == 'q8') {
+
+                                if (item == 'qualification') {
+
+                                    $('#qualification').after('<span class="text-danger">' +
+                                        error.responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'experience') {
+
+                                    $('#experience').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'location') {
+
+                                    $('#location').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'work_location') {
+
+                                    $('#work_location').after('<span class="text-danger">' +
+                                        error.responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'q1') {
+
+                                    $('#q1').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'q3') {
+
+                                    $('#q3').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'q5') {
+
+                                    $('#q5').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'q6') {
+
+                                    $('#q6').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+                                if (item == 'q8') {
+
+                                    $('#q8').after('<span class="text-danger">' + error
+                                        .responseJSON.errors[item] + '</span>')
+
+                                }
+
+
+                            } else {
+
+                                input.addClass('is-invalid')
+
+                                inputAfter.remove()
+                                input.after('<span class="text-danger">' + error.responseJSON
+                                    .errors[item] + '</span>')
+
+                                // Array element
+                                let inputArr = jQuery(document).find('input[name="' + item +
+                                    '[]"]')
+                                let inputAfterArr = jQuery(document).find('input[name="' +
+                                    item + '[]"] + span')
+
+                                inputArr.addClass('is-invalid')
+
+                                inputAfterArr.remove()
+                                inputArr.after('<span class="text-danger">' + error.responseJSON
+                                    .errors[item] + '</span>')
+
+                            }
+
+                        })
+                    }
+                }
+            , });
+
         }
 
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-        var base_url = window.location.origin;
-        $.ajax({
-            url: base_url + '/check-eligibility'
-            , data: fd
-            , cache: false
-            , processData: false
-            , contentType: false
-            , type: 'POST'
-            , success: function(dataofconfirm) {
-                console.log('dataofconfirm.status', dataofconfirm.success);
-                if (dataofconfirm.success == 'success') {
 
-                    window.location.href = base_url + '/rpl/success';
-
-                    $('#alert').show();
-                    $('#alert-success').text(
-                        'Thank you one of our consultants will be in touch with you soon.');
-
-                    $('#is_submit_button').show()
-                    $('#is_spinner').hide()
-
-                    // document.getElementById('rplForm').reset()
-                    $('#rplForm').trigger("reset");
-
-                }
-            }
-            , error: function(error) {
-                console.log(error.responseJSON.errors);
-                if (error.status == 422) {
-                    // this.error = error.response.data.errors
-                    $('#is_spinner').hide()
-                    $('#is_submit_button').show();
-                    $('#is_submit_button').css({
-                        'border': '1px solid red'
-                    });
-
-                    $.each(error.responseJSON.errors, function(item, index) {
-                        let input = jQuery(document).find('input[name="' + item + '"]')
-                        let inputAfter = jQuery(document).find('input[name="' + item +
-                            '"] + span')
-
-
-                        if (item == 'experience' | item == 'work_location' | item ==
-                            'location' | item == 'qualification' | item == 'q1' | item ==
-                            'q3' | item == 'q5' | item == 'q6' | item == 'q8') {
-
-                            if (item == 'qualification') {
-
-                                $('#qualification').after('<span class="text-danger">' +
-                                    error.responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'experience') {
-
-                                $('#experience').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'location') {
-
-                                $('#location').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'work_location') {
-
-                                $('#work_location').after('<span class="text-danger">' +
-                                    error.responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'q1') {
-
-                                $('#q1').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'q3') {
-
-                                $('#q3').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'q5') {
-
-                                $('#q5').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'q6') {
-
-                                $('#q6').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-                            if (item == 'q8') {
-
-                                $('#q8').after('<span class="text-danger">' + error
-                                    .responseJSON.errors[item] + '</span>')
-
-                            }
-
-
-                        } else {
-
-                            input.addClass('is-invalid')
-
-                            inputAfter.remove()
-                            input.after('<span class="text-danger">' + error.responseJSON
-                                .errors[item] + '</span>')
-
-                            // Array element
-                            let inputArr = jQuery(document).find('input[name="' + item +
-                                '[]"]')
-                            let inputAfterArr = jQuery(document).find('input[name="' +
-                                item + '[]"] + span')
-
-                            inputArr.addClass('is-invalid')
-
-                            inputAfterArr.remove()
-                            inputArr.after('<span class="text-danger">' + error.responseJSON
-                                .errors[item] + '</span>')
-
-                        }
-
-                    })
-                }
-            }
-        , });
     });
 
 </script>

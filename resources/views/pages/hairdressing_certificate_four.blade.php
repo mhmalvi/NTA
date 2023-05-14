@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Certificate III in Hairdressing')
+<title>SHB40216 - Certificate IV in Hairdressing</title>
+
+
 @push('seo')
 
 <meta name="description" content="With this hairdressing course certification, you can get started on your way to a promising career in hairdressing. Which will help you to work as a hairdresser in a salon with confidence" />

@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Certificate IV in Child, Youth and Family Intervention')
+<title>CHC43315 - Certificate IV in Mental Health</title>
+
 
 @push('seo')
 

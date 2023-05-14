@@ -1,5 +1,7 @@
 @extends('layouts.app')
-@section('title', 'Diploma of Remedial Massage')
+@section('title', 'HLT52015 - Diploma of Remedial Massage')
+<title>HLT52015 - Diploma of Remedial Massage</title>
+
     @push('seo')
 
         <meta name="description"

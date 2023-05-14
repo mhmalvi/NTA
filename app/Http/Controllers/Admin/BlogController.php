@@ -91,7 +91,7 @@ class BlogController extends Controller
         $blogId = Crypt::decryptString($id);
         $blog = Blog::findOrFail($blogId);
         $categories = Category::all();
-
+        // dd(json_encode($blog));
         return view('admin.blogs.edit', compact('blog', 'categories'));
     }
 

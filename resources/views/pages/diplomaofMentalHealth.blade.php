@@ -2,6 +2,8 @@
 @section('title', 'Diploma of Mental Health')
 
 
+<title>CHC53315 - Diploma of Mental Health</title>
+
 
 
 
