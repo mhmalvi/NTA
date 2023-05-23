@@ -30,7 +30,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>NTA-Boost your career through a course in beauty, hairdressing, community or health</title>
+    <title>NTA | Nationally Recognised Training Courses in Australia</title>
+
 
 
 

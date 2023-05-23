@@ -58,6 +58,8 @@
                                             </div>
                                         </td>
                                         <td>
+                                        {{-- @dd(json_encode($blog)) --}}
+
                                             @if (!$blog->category_id)
                                                 {{'uncategorized'}}
                                             @else

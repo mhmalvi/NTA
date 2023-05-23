@@ -51,7 +51,7 @@
                             </li>
                             <li><a href="{{ route('health.services_assistance') }}">HLT33115 - Certificate III in Health Services Assistance</a>
                             </li>
-                            <li><a href="{{ route('health.admin') }}">HLT37315 - Certificate III in Health Services Assistance</a>
+                            <li><a href="{{ route('health.admin') }}">HLT37315 - Certificate III in Health Administration</a>
                             </li>
                             <li><a href="{{ route('health.service') }}">HLT43021 - Certificate IV in Allied Health Assistance</a>
                             </li>
@@ -175,7 +175,8 @@
 
 
                             </li>
-                            <li><a href="{{ route('health.admin') }}">HLT37315 - Certificate III in Health Services Assistance</a>
+                            <li><a href="{{ route('health.admin') }}">HLT37315 - Certificate III in Health Administration</a>
+
 
 
 
