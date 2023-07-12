@@ -30,7 +30,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>NTA | Nationally Recognised Training Courses in Australia</title>
+    <title>NTA | Nationally Recognised Training Provider in NSW, Melbourne, Perth, Sydney, AU</title>
+
 
 
 
