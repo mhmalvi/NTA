@@ -14,7 +14,7 @@
                 </button>
                 <a class="navbar-brand" href="{{ URL::to('/') }}" style="padding: 0px !important;">
                     <img src="{{ asset('assets/images/logo/nta_logo.png') }}" alt="logo" class="logo logo-display" style="width: 250px;">
-                    <img src="{{ asset('assets/images/logo/nta_logo.png') }}" class="logo logo-scrolled" alt="" style="width: 150px;">
+                    <img src="{{ asset('assets/images/logo/nta_logo.png') }}" class="logo logo-scrolled" alt="logo" style="width: 150px;">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-menu">
@@ -176,7 +176,6 @@
 
                             </li>
                             <li><a href="{{ route('health.admin') }}">HLT37315 - Certificate III in Health Administration</a>
-
 
 
 

@@ -5,7 +5,6 @@
     @push('css')
 
         <style>
-
             .item h3 a {
                 color: #002B46 !important;
             }

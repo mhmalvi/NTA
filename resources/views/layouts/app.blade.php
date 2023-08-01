@@ -34,9 +34,6 @@
 
 
 
-
-
-
     <link rel="icon" href="{{ asset('assets/images/logo/favicon.png') }}">
 
     <link rel="preload" href="{{asset('assets/fonts/museo_slab_0-webfont.woff2')}}" as="font" type="font/woff2" crossorigin>
@@ -108,6 +105,18 @@
         fbq('track', 'PageView');
 
     </script>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org/",
+	"@type": "WebSite",
+	"url": "https://nta.nsw.edu.au/",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://nta.nsw.edu.au/{search_term_string}",
+		"query-input": "required name=search_term_string"
+	}
+}
+</script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=573305264193638&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
     <style>
@@ -124,12 +133,12 @@
 
             }
 
-            .course-dropdown {
-                margin-left: -44px !important;
+            .course-dropdown{
+                    margin-left: -44px !important;
 
             }
 
-            .course_image {
+            .course_image{
                 height: 14rem !important;
 
             }
@@ -195,4 +204,3 @@
 </body>
 
 </html>
-

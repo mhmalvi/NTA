@@ -283,12 +283,12 @@
                         <div class="card card-custom">
                             <h5 class="card-title card-title-custom">Looking for answer you can't find?</h5>
                             <div class="card-body">
-                                    <img
-                                        src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-headphone-devices-icongeek26-linear-colour-icongeek26-1.png" />
-                                    <p class="card-text">Our expert are always here to help!</p>
-                                    <a href="tel:1300616123" class="card-text card-text-number">1300 616 123</a>
-                                    <a href="/contact-us" target="_blank" class="btn btn-primary btn-primary-custom">Get in touch now!</a>
-                                </div>
+                                <img
+                                    src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-headphone-devices-icongeek26-linear-colour-icongeek26-1.png" />
+                                <p class="card-text">Our expert are always here to help!</p>
+                                <p class="card-text card-text-number">1300 616 123</p>
+                                <a href="#" class="btn btn-primary btn-primary-custom">Get in touch now!</a>
+                            </div>
                         </div>
 
                         <div class="box">

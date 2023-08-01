@@ -1,10 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Certificate IV in Allied Health Assistance')
 
+
 <title>HLT43021 - Certificate IV in Allied Health Assistance</title>
-
-
-
 
 
 

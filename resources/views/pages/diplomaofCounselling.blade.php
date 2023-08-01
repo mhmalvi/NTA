@@ -1,10 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Diploma of Counselling')
 
+
 <title>CHC51015 - Diploma of Counselling</title>
-
-
-
 
 @push('seo')
 

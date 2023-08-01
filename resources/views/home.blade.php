@@ -29,24 +29,21 @@
 @endpush
 
 @push('seo')
-<meta name="title" content="Noble Training Academy (NTA)" />
+<meta name="title" content="Noble Training Academy (NTA)"/>
 <meta name="description" content="Nobel Training Academy is a Nationally Recognised Training Provider in NSW, Melbourne, Perth, Sydney, Australia. So you can enroll in your desired course and boost your career." />
-
 @endpush
 
 @push('og')
-<meta property="og:title" content="Noble Training Academy (NTA)" />
+<meta property="og:title" content="Noble Training Academy (NTA)"/>
 <meta property="og:keywords" content="beauty therapy,remedial massage,hair dressing,certificate iii,diploma,colleges in australia,certificate ii">
 <meta property="og:description" content="Nobel Training Academy is a Nationally Recognised Training Provider in NSW, Melbourne, Perth, Sydney, Australia. So you can enroll in your desired course and boost your career.">
-
 <meta property="og:image" content="{{ asset('assets/images/about/nta_logo.png') }}" />
 
 <!-- For Tweeter -->
-<meta name="twitter:card" content="Noble Training Academy (NTA)" />
-<meta name="twitter:title" content="Noble Training Academy (NTA)" />
-<meta name="twitter:description" content="Nobel Training Academy is a Nationally Recognised Training Provider in NSW, Melbourne, Perth, Sydney, Australia. So you can enroll in your desired course and boost your career." />
-
-<meta name="twitter:image" content="{{ asset('assets/images/about/nta_logo.png') }}" />
+<meta name="twitter:card" content="Noble Training Academy (NTA)"/>
+<meta name="twitter:title" content="Noble Training Academy (NTA)"/>
+<meta name="twitter:description" content="Nobel Training Academy is a Nationally Recognised Training Provider in NSW, Melbourne, Perth, Sydney, Australia. So you can enroll in your desired course and boost your career."/>
+<meta name="twitter:image" content="{{ asset('assets/images/about/nta_logo.png') }}"/>
 @endpush
 @section('content')
 
@@ -1638,4 +1635,3 @@ $DRM = 'This qualification reflects the role of remedial massage therapists who 
 </script>
 
 @endsection
-

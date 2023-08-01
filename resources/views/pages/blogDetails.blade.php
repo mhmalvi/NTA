@@ -1,117 +1,104 @@
 @extends('layouts.app')
 
 @section('title', $blog->blog_title)
-<title>{{ $blog->blog_title }}</title>
 
-@push('seo')
-<meta name="title" content="{{$blog->blog_title}}" />
-<meta name="tags" content="{{ $blog->meta_tags }}" />
-<meta name="keywords" content="{{$blog->meta_keys}}" />
-<meta name="description" content="{{$blog->meta_desc}}" />
-@endpush
-
-
-@push('og')
+    <title>{{ $blog->blog_title }}</title>
+   @push('seo')
+        <meta name="title" content="{{$blog->blog_title}}"/>
+        <meta name="tags" content="{{ $blog->meta_tags }}" />
+        <meta name="keywords" content="{{$blog->meta_keys}}" />
+        <meta name="description" content="{{$blog->meta_desc}}" />
+    @endpush
 
 
-<meta property="og:title" content="{{$blog->blog_title}}" />
-<meta property="og:tags" content="{{$blog->meta_tags }}">
-<meta property="og:keywords" content="{{$blog->meta_keys }}">
-<meta property="og:description" content="{{ $blog->meta_desc }}">
-<meta property="og:image" content="{{ asset('storage/blogs/'.$blog->thumbnail) }}" />
+    @push('og')
+        <meta property="og:title" content="{{$blog->blog_title}}"/>
+        <meta property="og:tags" content="{{$blog->meta_tags }}">
+        <meta property="og:keywords" content="{{$blog->meta_keys }}">
+        <meta property="og:description" content="{{ $blog->meta_desc }}">
+        <meta property="og:image" content="{{ asset('storage/blogs/'.$blog->thumbnail) }}" />
 
-<!-- For Tweeter -->
-<meta name="twitter:card" content="{{$blog->blog_title}}" />
-<meta name="tweeter:title" content="{{$blog->blog_title}}" />
-<meta name="tweeter:keywords" content="{{$blog->meta_keys }}">
-<meta name="tweeter:description" content="{{ $blog->meta_desc }}">
-<meta name="tweeter:image" content="{{ asset('storage/blogs/'.$blog->thumbnail)}}" />
+        <!-- For Tweeter -->
+        <meta name="twitter:card" content="{{$blog->blog_title}}"/>
+        <meta name="tweeter:title" content="{{$blog->blog_title}}"/>
+        <meta name="tweeter:keywords" content="{{$blog->meta_keys }}">
+        <meta name="tweeter:description" content="{{ $blog->meta_desc }}">
+        <meta name="tweeter:image" content="{{ asset('storage/blogs/'.$blog->thumbnail) }}" />
+        
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": {{$blog->blog_title}},
+            "image": [
+              {{ asset('storage/blogs/'.$blog->thumbnail)}}
+            ],
+            "datePublished": {{ $blog->created_at }},
+            "author": [{
+                "@type": "Organization",
+                "name": "Quadque Technology",
+              }]
+          }
+        </script>
 
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org"
-        , "@type": "NewsArticle"
-        , "headline": {
-            {
-                $blog - > blog_title
+    @endpush
+
+
+    @push('css')
+
+        <style>
+            .at-resp-share-element .at-share-btn {
+                margin-bottom: 0px !important;
             }
-        }
-        , "image": [{
-            {
-                asset('storage/blogs/'.$blog - > thumbnail)
+            
+            @media (max-width: 576px){
+                p{
+                   font-size: 1rem !important; 
+                }
+                
+                img{
+                    width: 100% !important;
+                    height: auto !important;
+                }  
+                
+                .navbar-brand img{
+                    width: 200px !important;
+                }
             }
-        }]
-        , "datePublished": {
-            {
-                $blog - > created_at
-            }
-        }
-        , "author": [{
-            "@type": "Organization"
-            , "name": "Quadque Technology"
-        , }]
-    }
 
-</script>
-
-@endpush
-
-
-@push('css')
-
-<style>
-    .at-resp-share-element .at-share-btn {
-        margin-bottom: 0px !important;
-    }
-
-    @media (max-width: 576px) {
-        p {
-            font-size: 1rem !important;
-        }
-
-        img {
-            width: 100% !important;
-            height: auto !important;
-        }
-
-        .navbar-brand img {
-            width: 200px !important;
-        }
-    }
-
-</style>
-
-@endpush
+        </style>
+    @endpush
 @section('content')
-<!--Page Header-->
+
+    <!--Page Header-->
 <section class="page_header padding-top">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 page-content">
-                <h1>{{$blog->blog_title}}</h1>
-                <div class="page_nav">
-                    <span>You are here:</span> <a href="{{route('home')}}">Home</a> <span><i class="fa fa-angle-double-right"></i>Blog</span>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-12 page-content">
+          <h1>{{$blog->blog_title}}</h1>
+          <div class="page_nav">
+        <span>You are here:</span> <a href="{{route('home')}}">Home</a> <span><i class="fa fa-angle-double-right"></i>Blog</span>
         </div>
+        </div>
+      </div>
     </div>
-</section>
-
-
-
-<!--BLOG SECTION-->
-<section id="blog" class="padding-bottom-half padding-top">
-    <h3 class="hidden">hidden</h3>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 offset-md-2 col-sm-10 wow fadeIn" data-wow-delay="400ms">
-                @isset($blog)
+  </section>
+  
+  
+  
+  <!--BLOG SECTION-->
+  <section id="blog" class="padding-bottom-half padding-top">
+   <h3 class="hidden">hidden</h3>
+   <div class="container">
+       <div class="row">
+        <div class="col-md-10 offset-md-2 col-sm-10 wow fadeIn" data-wow-delay="400ms">
+            @isset($blog)
                 @php
-                $date = date("M d, Y", strtotime($blog->created_at));
-                @endphp
+                    $date = date("M d, Y", strtotime($blog->created_at));
+                @endphp 
                 <article class="blog_item padding-bottom-half heading_space" style="border:none;">
                     <div class="image bottom25 text-center">
-                        <img src="{{asset('storage/blogs/'.$blog->thumbnail)}}" alt="{{ ($blog->thumbnail_alt)}}">
+                    <img src="{{asset('storage/blogs/'.$blog->thumbnail)}}" alt="{{ ($blog->thumbnail_alt)}}">
                     </div>
                     <hr>
                     <ul class="comment margin10">
@@ -122,18 +109,18 @@
                     {{-- Details --}}
                     <p>
                         @php
-                        echo $blog->blog_details;
+                            echo $blog->blog_details;
                         @endphp
                     </p>
                 </article>
-                @endisset
-                <div class="share clearfix heading_space">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p><strong>Share This Article:</strong></p>
-                        <div class="addthis_inline_share_toolbox"></div>
-                    </div>
-                </div>
-                {{-- <article>
+            @endisset
+          <div class="share clearfix heading_space">
+            <div class="d-flex justify-content-between align-items-center">
+              <p><strong>Share This Article:</strong></p>
+              <div class="addthis_inline_share_toolbox"></div>
+            </div>
+          </div>
+          {{-- <article>
             <h3 class="heading bottom25">3 Comments<span class="divider-left"></span></h3>
             <div class="profile_border">
                 <div class="profile top20 bottom20">
@@ -189,8 +176,8 @@
             <button type="submit" class="btn_common yellow border_radius">post your comment</button>
             </form>
           </article> --}}
-            </div>
-            {{-- <div class="col-md-3 col-sm-4 wow fadeIn" data-wow-delay="400ms">
+        </div>
+        {{-- <div class="col-md-3 col-sm-4 wow fadeIn" data-wow-delay="400ms">
           <aside class="sidebar bg_grey border-radius">
             <div class="widget heading_space">
               <form class="widget_search border-radius">
@@ -290,12 +277,12 @@
             </div>
           </aside>
         </div> --}}
-        </div>
+      </div>
     </div>
-</section>
+  </section>
 @endsection
 
 @push('js')
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fa22324af2533af"></script>
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fa22324af2533af"></script>
 @endpush

@@ -9,11 +9,11 @@
                     <div class="alert alert-success" id="alert-success"></div>
                 </div>
             </div>
-            <div class="row" style="margin-top: 30px; margin-bottom: 3px;">
+            <!--<div class="row" style="margin-top: 30px; margin-bottom: 3px;">
                 <div class="col-md-12">
                     @include('components.rpl_form_ad_banner')
                 </div>
-            </div>
+            </div>-->
             <div class="form-wrapper">
                 <form action="" id="rplForm" enctype="multipart/form-data">
                     <div class="row">
@@ -35,7 +35,7 @@
                                             <div id="qualification"></div>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <input type="radio" name="qualification" id="first_course"
+                                                    <input type="radio" name="qualification[]" id="first_course"
                                                         value="HLT52015 - Diploma of Remedial Massage" />
                                                     <label for="first_course" class="exp-lbl exp-lbl2">
                                                         <div>
@@ -43,9 +43,18 @@
                                                         </div>
                                                     </label>
                                                 </div>
+                                                  <div class="col-md-6">
+                                                    <input type="radio" name="qualification[]" id="second_course"
+                                                        value="SHB30416 - Certificate III in Hairdressing" />
+                                                    <label for="second_course" class="exp-lbl exp-lbl2">
+                                                        <div>
+                                                            SHB30416 - Certificate III in Hairdressing
+                                                        </div>
+                                                    </label>
+                                                </div>
                                             </div>
                                             <div class="text-danger" v-if="errors.messages.qualification.length > 0">
-                                                {{-- {{ errors.messages.qualification[0] }} --}}
+                                                {{-- {{ errors.messages.qualification }} --}}
                                             </div>
                                         </div>
                                     </div>
@@ -274,7 +283,7 @@
                         <div class="col-md-6" style="margin-bottom: 24px;">
                             <div class="card card-custom">
                                 <h5 class="card-title card-title-custom">Looking for answer you can't find?</h5>
-                                <div class="card-body">
+                               <div class="card-body">
                                     <img
                                         src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-headphone-devices-icongeek26-linear-colour-icongeek26-1.png" />
                                     <p class="card-text">Our expert are always here to help!</p>

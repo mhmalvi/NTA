@@ -19,7 +19,7 @@
 
                 <div class="col-md-12 page-content">
 
-                    <h1 style="color: #fff;">SHB40115 - Certificate IV in Beauty Therapy (superseded)</h1>
+                    <h1 style="color: #fff;">SHB40115 - Certificate IV in Beauty Therapy</h1>
 
                     <div class="page_nav">
 
@@ -52,8 +52,7 @@
 
                 <div class="col-sm-8 course_detail wow fadeIn" data-wow-delay="400ms">
 
-                    <img src="{{ asset('assets/images/courses/cosmetologist-applying-mask-face-client-beauty-salon.jpg') }}" alt="Course"
-
+                    <img src="{{ asset('assets/images/courses/course02.jpg') }}" alt="Course"
                         class=" border_radius img-responsive bottom15">
 
                     <div class="row">
@@ -220,8 +219,7 @@
 
                         <div class="col-sm-12">
 
-                            {{-- <h2 class="top30 bottom20">Packaging Rules</h2> --}}
-                            <h2 class="package_rules">Packaging Rules</h2>
+                            <h2 class="top30 bottom20">Packaging Rules</h2>
 
                             <p>- 19 units must be completed</p>
 

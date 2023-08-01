@@ -1,10 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Certificate III in Health Services Assistance')
 
+
 <title>HLT33115 - Certificate III in Health Services Assistance</title>
-
-
-
 
 
 @push('seo')

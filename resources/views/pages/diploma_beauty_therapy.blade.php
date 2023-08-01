@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Diploma of Beauty Therapy')
 <title>SHB50121 Diploma of Beauty Therapy</title>
-
 @push('seo')
 
 <meta name="description" content="With this hairdressing course certification, you can get started on your way to a promising career in hairdressing. Which will help you to work as a hairdresser in a salon with confidence" />

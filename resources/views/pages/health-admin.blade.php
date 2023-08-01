@@ -2,10 +2,8 @@
 @section('title', 'Certificate III in Health Administration')
 
 
+
 <title>HLT37315 - Certificate III in Health Administration</title>
-
-
-
 
 
 @push('seo')

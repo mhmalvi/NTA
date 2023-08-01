@@ -132,8 +132,7 @@
 
                         <div class="col-sm-12">
 
-                            {{-- <h2 class="top30 bottom20">Packaging Rules</h2> --}}
-                            <h2 class="package_rules">Packaging Rules</h2>
+                            <h2 class="top30 bottom20">Packaging Rules</h2>
 
                             <p class="bottom25">
 

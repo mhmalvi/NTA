@@ -55,7 +55,9 @@ class MailController extends Controller
 
 
 
-        Mail::to('enquiries@nta.nsw.edu.au')->cc('info@quadque.tech')->send(new ContactUs($subject, $body));
+       
+          Mail::to('enquiries@nta.nsw.edu.au')->cc('info@quadque.tech')->send(new ContactUs($subject, $body));
+      
 
 
 

@@ -1,6 +1,13 @@
 @extends('layouts.app')
-{{--@section('title', 'Diploma of Beauty Therapy')--}}
+@section('title', 'Diploma of Beauty Therapy')
+<title>SHB50115 Diploma of Beauty Therapy</title>
+@push('seo')
+
+<meta name="description" content="With this hairdressing course certification, you can get started on your way to a promising career in hairdressing. Which will help you to work as a hairdresser in a salon with confidence" />
+
+@endpush
 @section('content')
+
     <!--Page Header-->
     <section class="page_header padding-top">
         <div class="container">
@@ -22,8 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 course_detail wow fadeIn" data-wow-delay="400ms">
-                    <img src="{{ asset('assets/images/courses/spa-concept-with-woman-with-creme-face.jpg') }}" alt="Course"
-
+                    <img src="{{ asset('assets/images/courses/Diploma-of-Beauty-Therapy.webp') }}" alt="Course"
                         class=" border_radius img-responsive bottom15">
                     <div class="row">
                         <div class="col-sm-12">

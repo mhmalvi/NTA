@@ -1,8 +1,6 @@
 @extends('layouts.app')
 {{--@section('title', 'Certificate IV in Beauty Therapy')--}}
 <title>SHB40121 - Certificate IV in Beauty Therapy</title>
-
-
 @push('seo')
 
 <meta name="description" content="With this hairdressing course certification, you can get started on your way to a promising career in hairdressing. Which will help you to work as a hairdresser in a salon with confidence" />

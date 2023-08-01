@@ -1,7 +1,6 @@
 @extends('layouts.app')
-@section('title', 'HLT52015 - Diploma of Remedial Massage')
+@section('title', 'Diploma of Remedial Massage')
 <title>HLT52015 - Diploma of Remedial Massage</title>
-
     @push('seo')
 
         <meta name="description"
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 page-content">
-                    <h1 style="color: #fff;">HLT52015 - Diploma of Remedial Massage (superseded)</h1>
+                    <h1 style="color: #fff;">HLT52015 - Diploma of Remedial Massage</h1>
                     <div class="page_nav">
                         <span>You are here:</span> <a href="{{ URL::to('/') }}">Home</a> <span><i
                                 class="fa fa-angle-double-right"></i>Courses</span>
@@ -35,7 +34,7 @@
                         class=" border_radius img-responsive bottom15">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h2 class="top30 bottom20">Qualification for Remedial Massage Course</h2>
+                            <h2 class="bottom15">Qualification for Remedial Massage Course</h2>
                             <p class="bottom25 text-justify">
                                 This qualification reflects the role of remedial massage therapists who work with clients
                                 presenting with soft tissue dysfunction, musculoskeletal imbalance or restrictions in range
@@ -62,13 +61,13 @@
                             
                             <br>
                             <div style="width:100%; text-align:center;">
-                                <a href="{{url('/check-your-rpl-eligibility-remedial-massage')}}" target="_blank" class="btn btn-lg btn-primary btn-custom-in-content" role="button">Check Your RPL Eligibility</a>
+                                <a href="{{url('/free-skill-check')}}" target="_blank" class="btn btn-lg btn-primary btn-custom-in-content" role="button">Free Skill Check</a>
                            </div>
                             <div>
                                 <p>
                                     <strong>Our programs include:</strong>
                                 </p>
-                                <br>
+                             
                                 <p>- Workshops</p>
                                 <p>- Drop-in sessions</p>
                                 <p>- Peer mentoring</p>
@@ -78,13 +77,13 @@
                             
                             <br>
                             
-                            <div class="bottom25 text-justify">
+                            <div class="bottom15 text-justify">
                                 <p>
                                     <strong>
                                         Our remedial massage experts will teach you the following in this nationally recognized qualification:
                                     </strong>
                                 </p>
-                                <br>
+                                
                                 <p> 
                                     - Advanced massage techniques to treat a variety of injuries.
                                 </p>
@@ -105,14 +104,14 @@
                             </div>
                             <br>
                             <p><strong>Career:</strong></p>
-                            <br>
+                           
                             <p>- Graduates may be able to work independently or as part of a health clinic as remedial massage therapists.</p>
                             <p>- A remedial massage therapist may also work as part of a multi-disciplinary health care team as a specialist member.</p>
                             <p>- Graduates will continue their education with the Advanced Diploma in Myotherapy.</p>
                             <br>
                             <p><strong>Entry and Enrolment Process:</strong></p>
-                            <br>
-                            <p class="bottom25 text-justify">
+                           
+                            <p class="bottom15 text-justify">
                                 All prospective students must meet with the Course Career Advisor or the Education Manager
                                 for an interview. The interview can take place in person or over the phone or via Skype. The
                                 Education Manager will determine the suitability and capacity to complete the course based
@@ -120,11 +119,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="bottom15"></div>
-                    <div class="row">
+                   
+                    <div class="row bottom15">
+                        <br>
                         <div class="col-sm-12">
-                            {{-- <h2 class="top30 bottom20">Packaging Rules</h2> --}}
-                            <h2 class="package_rules">Packaging Rules</h2>
+                            <h2>Packaging Rules</h2>
+                            <br>
                             <p>Total number of units = 21</p>
                             <p>- 16 core units</p>
                             <p>- 5 elective units, consisting of at least 1 unit from the Business Management group below</p>
@@ -133,21 +133,14 @@
                             </p>
                         </div>
                     </div>
-
+                    <div class="bottom15"></div>
                     <br>
-                    <br>
-                    {{-- <div class="d-flex">
-                        <button type="button" class="btn_common yellow border_radius" data-toggle="modal"
-                            data-target="#applyNow"
-                            onclick="event.preventDefault(); applyNow('Diploma of Remedial Massage');">Apply Now</button>
-                    </div> --}}
-                    <a href="{{url('/check-your-rpl-eligibility-remedial-massage')}}" target="_blank" class="btn btn-lg btn-primary btn-custom-in-content" role="button">
-                        Apply Now
-                    </a>
-                    <br />
-                    <br />
-
-                    {{-- Accordion --}}
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Course Fees:</h2>
+                        </div>
+                    </div>
+                    
                     <div class="row">
                         <div class="col-md-12">
                             <div class="widget heading_space">
@@ -240,6 +233,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
                 <aside class="col-sm-4 wow fadeIn" data-wow-delay="400ms">
                     <div class="widget heading_space">
@@ -250,12 +244,12 @@
                                 colors="primary:#002B46,secondary:#002B46"
                                 class="lord-icon-size">
                             </lord-icon>
-                            Check Your RPL Eligibility
+                            Free Skill Check
                         </button> --}}
  <a href="https://lifestyle.tlc.com.au/apply-now-edupay/?amount=5000&purpose=Education&prnid=MjQ5Nw==" target="_blank" class="btn btn-lg btn-info btn-custom" role="button" style="background:#fb963f">Apply for Payment Plan</a>
-                        <a href="{{url('/check-your-rpl-eligibility-remedial-massage')}}" target="_blank" class="btn btn-lg btn-primary btn-custom" role="button">Check Your RPL Eligibility</a>
+                        <a href="{{url('/apply-now')}}" target="_blank" class="btn btn-lg btn-primary btn-custom" role="button">Apply Now</a>
 
-                        <h3 class="bottom20">Core units</h3>
+                        <h3 class="bottom20margin40">Core units</h3>
                         <div class="media">
                             <div class="media-body">
                                 <table class="table">
@@ -393,7 +387,52 @@
                             </div>
                         </div>
                     </div>
-                    <div class="widget heading_space">
+                    
+                    <!--Old 24-11-22-->
+                    <!--<div class="widget">-->
+                    <!--    <h3 class="bottom15">Elective units</h3>-->
+                    <!--    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">-->
+                    <!--        <div class="panel panel-default">-->
+                    <!--            <div class="panel-heading" role="tab" id="headingOne">-->
+                    <!--                <h4 class="panel-title" role="button" data-toggle="collapse" data-parent="#accordion"-->
+                    <!--                    href="#A" aria-expanded="false" aria-controls="A">-->
+                    <!--                    Business Management-->
+                    <!--                </h4>-->
+                    <!--            </div>-->
+                    <!--            <div id="A" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">-->
+                    <!--                <div class="panel-body">-->
+                    <!--                    <ul>-->
+                    <!--                        <li class="nta_course"><strong>BSBSMB404</strong> - Undertake small business-->
+                    <!--                            planning</li>-->
+                    <!--                        <li class="nta_course"><strong>BSBSMB405</strong> - Monitor and manage small-->
+                    <!--                            business operations</li>-->
+                    <!--                    </ul>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--        <div class="panel panel-default">-->
+                    <!--            <div class="panel-heading" role="tab" id="headingTwo">-->
+                    <!--                <h4 class="panel-title">-->
+                    <!--                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"-->
+                    <!--                        href="#B" aria-expanded="false" aria-controls="B">-->
+                    <!--                        Other electives-->
+                    <!--                    </a>-->
+                    <!--                </h4>-->
+                    <!--            </div>-->
+                    <!--            <div id="B" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">-->
+                    <!--                <div class="panel-body">-->
+                    <!--                    <ul>-->
+                    <!--                        <li class="nta_course"><strong>HLTREF002</strong> -	Provide reflexology for relaxation</li>-->
+                    <!--                        <li class="nta_course"><strong>CHCPRP002</strong> -	Collaborate in professional practice</li>-->
+                    <!--                        <li class="nta_course"><strong>HLTHPS010</strong> -	Interpret and use information about nutrition and diet</li>-->
+                    <!--                    </ul>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    
+                     <div class="widget heading_space">
                         <h3 class="bottom20">Elective units</h3>
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
@@ -437,6 +476,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </aside>
             </div>
         </div>
