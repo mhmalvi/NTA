@@ -92,7 +92,7 @@
 
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
 
-                <li><a href="http://elearning.nta.nsw.edu.au/login/index.php">E-Learning</a></li>
+                <li><a href="https://elearning.nta.nsw.edu.au/login/index.php">E-Learning</a></li>
                 </ul>
             </div>
         </div>
@@ -183,7 +183,8 @@
 
 
                             </li>
-                            <li><a href="{{ route('health.service') }}">HLT43021 - Certificate IV in Allied Health Assistance</a>
+                            <li><a href="{{ route('health.services_assistance') }}">HLT43021 - Certificate IV in Allied Health Assistance</a>
+
 
 
                             </li>
@@ -228,7 +229,7 @@
                 </li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
 
-                <li><a href="http://elearning.nta.nsw.edu.au/login/index.php">E-Learning</a></li>
+                <li><a href="https://elearning.nta.nsw.edu.au/login/index.php">E-Learning</a></li>
                 </ul>
                 <div class="clearfix"></div>
                 <ul class="social_icon black top25 bottom20">

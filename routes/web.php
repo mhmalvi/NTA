@@ -34,12 +34,12 @@ Route::get('blogs', [BlogController::class, 'index'])->name('blogs');
 Route::get('blogs/{slug}', [BlogController::class, 'blogDetails'])->name('blogDetail')->middleware(['cache-response']);
 Route::get('/download/{fileName}', [PolicyController::class, 'downloadPolicy'])->name('policyFile');
 
-Route::get('diploma-in-beauty-therapy', [CoursesController::class, 'BeautyDiploma'])->name('diplomaInBeauty')->middleware(['cache-response']);
+Route::get('shb50115-diploma-in-beauty-therapy', [CoursesController::class, 'BeautyDiploma'])->name('diplomaInBeauty')->middleware(['cache-response']);
 Route::get('certificate-IV-in-beauty-therapy', [CoursesController::class, 'BeautyTherapy_superseded'])->name('BeautyTherapy_superseded')->middleware(['cache-response']);
-Route::get('diploma-in-remedial-massage', [CoursesController::class, 'remedial'])->name('diplomaInRemedial')->middleware(['cache-response']);
+Route::get('hlt52015-diploma-of-remedial-massage', [CoursesController::class, 'remedial'])->name('diplomaInRemedial')->middleware(['cache-response']);
 
-Route::get('certificate-iii-in-hairdressing', [CoursesController::class, 'hairderssing'])->name('hairdressing')->middleware(['cache-response']);
-Route::get('certificate-iv-in-beauty-therapy', [CoursesController::class, 'BeautyTherapy'])->name('beautyTherapy')->middleware(['cache-response']);
+Route::get('shb30416-certificate-iii-in-hairdressing', [CoursesController::class, 'hairderssing'])->name('hairdressing')->middleware(['cache-response']);
+Route::get('shb40115-certificate-iv-in-beauty-therapy', [CoursesController::class, 'BeautyTherapy'])->name('beautyTherapy')->middleware(['cache-response']);
 Route::get('certificate-iv-in-hairdressing', [CoursesController::class, 'hairdrerssing_four'])->name('hairdressing.four')->middleware(['cache-response']);
 Route::get('diploma-of-beauty-therapy', [CoursesController::class, 'diploma_beauty_therapy'])->name('diploma_beauty.therapy')->middleware(['cache-response']);
 Route::get('child-youth-family', [CoursesController::class, 'child_youth_family'])->name('child_youth.family')->middleware(['cache-response']);

@@ -157,7 +157,7 @@
                     </ul>
                 </li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                <li><a href="http://elearning.nta.nsw.edu.au/login/index.php" target="blank">E-Learning</a></li>
+                <li><a href="https://elearning.nta.nsw.edu.au/login/index.php" target="blank">E-Learning</a></li>
                 </ul>
             </div>
         </div>
