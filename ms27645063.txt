@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "nta.nsw.edu.au",
-  "Id": "a43fdcf4-be9e-401b-bdf8-9fc30bde3aa2"
-}
